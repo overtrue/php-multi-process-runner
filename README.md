@@ -1,6 +1,6 @@
-# PHP Multi-Process Runner
+# PHP Multi-process Runner
 
-PHP多进程执行工具
+基于PHP拓展[PCNTL](http://php.net/manual/zh/book.pcntl.php)的多进程执行工具 
 
 ## Usage
 
