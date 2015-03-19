@@ -22,7 +22,7 @@ sudo chmod +x ./pmr
 ./pmr 命令 最大进程数
 ```
 
-多进行运行一个 php 文件示例：
+多进程运行一个 php 文件示例：
 
 ```shell
 ./pmr "php test.php" 50
