@@ -1,10 +1,10 @@
 # PHP Multi-process Runner
 
-基于PHP拓展[PCNTL](http://php.net/manual/zh/book.pcntl.php)的多进程执行工具 
+基于 PHP 拓展 [PCNTL](http://php.net/manual/zh/book.pcntl.php) 的多进程执行工具。
 
 ## Usage
 
-下载pmr到本地
+下载 pmr 到本地
 
 ```shell
 wget https://raw.githubusercontent.com/overtrue/php-multi-process-runner/master/pmr 
@@ -22,7 +22,7 @@ sudo chmod +x ./pmr
 ./pmr 命令 最大进程数
 ```
 
-多进行运行一个php文件示例：
+多进行运行一个 php 文件示例：
 
 ```shell
 ./pmr "php test.php" 50
