@@ -9,7 +9,7 @@
 date_default_timezone_set('PRC');
 
 if (substr(php_sapi_name(), 0, 3) !== 'cli') {
-    die("This Programe can only be run in CLI mode");
+    die("This program can only be run in CLI mode");
 }
 
 if (!function_exists('pcntl_fork')) {
